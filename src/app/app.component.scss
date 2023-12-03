@@ -1,0 +1,165 @@
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #222; /* Cambiado a tono oscuro */
+  color: #fff; /* Letra blanca */
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.message-container {
+  margin-left: 320px;
+}
+
+.create-button-container {
+  margin-left: auto;
+}
+
+.small-input {
+  width: 150px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 14px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.detalle-factura {
+  margin-top: 20px;
+}
+
+.detalle-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #333; /* Cambiado a tono oscuro */
+  color: #fff; /* Letra blanca */
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.blue-button {
+  background-color: blue;
+  color: white;
+  margin-left: 10px;
+}
+
+.header-color {
+  background-color: #007BFF;
+  color: white;
+}
+
+.message-container {
+  margin-left: 320px;
+}
+
+.warning-message {
+  background-color: #ffdddd;
+  border: 1px solid #ff0000;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.warning-message p {
+  color: #ff0000;
+  margin: 0;
+}
+
+.warning-message button {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.warning-message button:hover {
+  background-color: #cc0000;
+}
+
+.agregar-detalle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.input-mediano {
+  width: 400px;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top: 12px;
+}
+
+.input-pequeno {
+  width: 75px;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top: 12px;
+}
+
+.boton-derecha {
+  margin-left: auto;
+}

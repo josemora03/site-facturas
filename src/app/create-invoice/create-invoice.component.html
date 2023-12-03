@@ -1,0 +1,31 @@
+
+<div class="formulario-container">
+    <form class="formulario-content">
+        <div>
+            <label for="numero_factura">Número de Factura:</label>
+            <input type="text" id="numero_factura" [(ngModel)]="currentInvoice.numero_factura" name="numero_factura"
+                required>
+        </div>
+
+        <div>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" [(ngModel)]="currentInvoice.fecha" name="fecha" required>
+        </div>
+
+        <button type="button" class="btn btn-primary" (click)="validateInvoice()">Crear Factura</button>
+
+        <button type="button" class="cerrar-btn" (click)="cerrarVentana()">X</button>
+
+        <div *ngIf="warningMessage">
+            <p style="color: orange;">{{ warningMessage }}</p>
+        </div>
+
+        <div *ngIf="errorMessage">
+            <p style="color: red;">{{ errorMessage }}</p>
+        </div>
+
+        <div *ngIf="confirmMessage">
+            <p style="color: green;">{{ confirmMessage }}</p>
+        </div>
+    </form>
+</div>
